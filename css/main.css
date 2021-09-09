@@ -30,9 +30,20 @@ header {
   align-items: flex-start;
 }
 
+header.active {
+  height: 90vh;
+  justify-content: stretch;
+}
+
+header.active #desktop-nav ul li {
+  text-align: left;
+  padding: 0;
+}
+
 #desktop-nav {
   display: none;
   width: 100%;
+  margin-top: 4rem;
 }
 
 #desktop-nav ul {
@@ -44,11 +55,18 @@ header {
   text-align: center;
 }
 
-@media (min-width: 720px) {
-  .hide-for-desktop {
-    display: none;
-  }
+.nav-link {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 20px;
+  color: #fff;
+  border: 1px solid transparent;
+  transition: 350ms;
+}
 
+@media (min-width: 720px) {
   header {
     flex-direction: row;
     align-items: center;
@@ -58,6 +76,7 @@ header {
   #desktop-nav ul {
     flex-direction: row;
     width: initial;
+    margin-top: 0;
   }
 }
 
@@ -75,7 +94,7 @@ header {
   outline: none;
 
   position: absolute;
-  top: 0.75rem;
+  top: 1.28rem;
   right: 1rem;
 }
 
