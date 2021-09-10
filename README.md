@@ -35,12 +35,6 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@ericmbouwe](https://twitter.com/ericmbouwe)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
-👤 **Author2**
-
-- GitHub: [@ericmbouwe](https://github.com/ericmbouwe)
-- Twitter: [@ericmbouwe](https://twitter.com/ericmbouwe)
-- LinkedIn: [ericmbouwe](https://linkedin.com/in/ericmbouwe)
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!

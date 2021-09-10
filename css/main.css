@@ -76,11 +76,13 @@ header.active #desktop-nav ul li {
 }
 
 #logo {
+  display: block;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 24px;
+  color: white;
 }
 
 #desktop-nav {
